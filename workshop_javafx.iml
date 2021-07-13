@@ -8,22 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="javafx-fxml">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib/javafx-fxml-11.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib/javafx-fxml-11-win.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib/javafx-controls-11.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib/javafx-controls-11-win.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib/javafx-graphics-11.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib/javafx-graphics-11-win.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib/javafx-base-11.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib/javafx-base-11-win.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="jdbc-connectors">
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../../java-libs/jdbc-connectors" />
@@ -31,6 +15,19 @@
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/../../../java-libs/jdbc-connectors" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../java-libs/javafx-sdk/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>
