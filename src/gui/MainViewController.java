@@ -10,7 +10,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
-import sample.Main;
+import application.Main;
 
 import java.io.IOException;
 import java.net.URL;
@@ -33,7 +33,7 @@ public class MainViewController implements Initializable {
     }
     @FXML
     public void onMenuItemDepartmentAction(){
-        System.out.println("onMenuItemDepartmentAction");
+        loadView("/gui/DepartmentList.fxml");
     }
     @FXML
     public void onMenuItemAboutAction(){
@@ -42,7 +42,6 @@ public class MainViewController implements Initializable {
 
     @Override
     public synchronized void initialize(URL url, ResourceBundle resourceBundle) {
-
     }
 
     private void loadView(String absoluteName){
